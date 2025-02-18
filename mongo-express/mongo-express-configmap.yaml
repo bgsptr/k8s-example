@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
     name: mongodb-configmap
 data:
-    mongodb_url: mongo-express-service
+    mongodb_url: mongodb-service
