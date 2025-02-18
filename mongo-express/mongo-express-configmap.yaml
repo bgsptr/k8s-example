@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+    name: mongodb-configmap
+type: Opaque
+data:
+    mongodb_url: mongo-express-service
